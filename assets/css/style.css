@@ -53,6 +53,9 @@
   border-radius: 10px;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
 /*nav fixed*/
 
 .nav{
@@ -231,5 +234,10 @@
 
 .right-part h3{
   font-size: 1.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.right-part p{
+  margin-bottom: 30px;
 }
