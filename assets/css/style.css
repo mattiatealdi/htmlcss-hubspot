@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 100%;
+  padding: 0 10%;
+}
+
+.fixed{
+  position: fixed;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.btn{
+  padding: 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+.btn-orange{
+  background-color: #FE775A;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/*nav fixed*/
+
+.nav{
+  height: 100px;
+  line-height: 100px;
+}
+
+.nav.fixed{
+  width: 80%;
+  height: 100px;
+  border-bottom: 1px solid #32495B; 
+  background-color: #F4F9FD;
+}
+
+.first.container{
+  height: 100px;
+  border-bottom: 1px solid #32495B; 
+  background-color: #F4F9FD;
+}
+
+.language i{
+  margin-right: 10px;
+}
+
+.language{
+  margin-right: 10px; 
+}
+
+.language, .contact-us{
+  color: #32495B;
+  font-size: 1.3em;
+}
+
+.nav-right .log-in{
+  background: #F4F9FD;
+  color: #FE775A;
+  border-color: #FE775A;
+  margin-left:30px;
+}
+
+.nav-right .btn-orange{
+  padding: 20px;
+  font-size: 1.2em;
+  margin-left: 20px;
+}
+
+.fas.fa-search{
+  color: #00A4BD;
+  font-size: 1.2em;
+}
+
+/*nav static*/
+
+.second.container{
+  padding-top: 100px;
+}
+.nav.static{
+  color: #32495B;
+}
+
+.second-nav-right div{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.2em;
+}
+
+.second .nav img{
+  margin-top: 35px;
+  overflow: hidden;
+}
+
+/* jumbotron */
+
+.jumbotron{
+  background-repeat: no-repeat;
+  background-image: url(../img/jumbotron.png);
+  position: cover;
+  width: 100%;
+}
