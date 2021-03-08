@@ -266,11 +266,9 @@
 
 .part.two{
   margin-top: 100px;
-  background:blue;
 }
 
 .box{
-  background: red;
   width: 26%;
   height: 850px;
   border-radius: 10px;
@@ -327,14 +325,14 @@
 /*part three*/
 
 .container-info{
-  height: 1200px;
+  height: 60vw;
   background:#F4F9FD;
   width: 100vw;
   padding-top: 100px;
 }
 
 .info{
-  background-color: blue;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   width: 100%;
   height: 100%;
   padding: 0 10%;
@@ -354,13 +352,11 @@
 }
 
 .row.one{
-  background: red;
   width: 100%;
 
 }
 
 .el{
-  background: green;
   width: 25%;
   height: 20vw;
   border:1px solid white;
@@ -405,13 +401,11 @@
 .small-container{
   width: 60%;
   margin: auto;
-  background-color: brown;
-  height: 20vh;
+  height: 20vw;
 }
 
 .right-box{
   width: 30%;
-  background:burlywood;
   height: 100%;
 }
 
@@ -424,7 +418,6 @@
 
 .left-box{
   width: 70%;
-  background:chartreuse;
   padding-top: 5vh;
 }
 
@@ -445,8 +438,7 @@
 /*last container*/
 
 .last.container{
-  background:darkblue;
-  height: 500px;
+  height: 30vw;
   padding-top: 50px;
   margin-bottom: 50px;
 }
@@ -477,6 +469,52 @@
 /*footer*/
 
 .footer.container{
-  height: 600px;
+  height: 36vw;
   background-color: #32495B;
+}
+
+.col{
+  width: 24%;
+}
+
+.col ul li{
+  list-style: none;
+  color: white;
+}
+
+.col ul li:first-of-type{
+  padding: 50px 0;
+  font-weight: bolder;
+}
+
+.col ul li{
+  padding-bottom: 20px;
+}
+
+.btn-white{
+  font-size: 0.8rem;
+  display: block;
+}
+
+.col ul li i{
+  padding: 12px;
+}
+
+.languages{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.languages span{
+  padding: 0 0 0px 10px;
+  color: white;
+}
+
+.last-section{
+  padding-top: 40px;
+  color: white;
+}
+
+.last-section-right span{
+  padding-right: 20px;
 }
