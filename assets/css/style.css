@@ -401,7 +401,7 @@
 .small-container{
   width: 60%;
   margin: auto;
-  height: 20vw;
+  
 }
 
 .right-box{
@@ -438,7 +438,6 @@
 /*last container*/
 
 .last.container{
-  height: 30vw;
   padding-top: 50px;
   margin-bottom: 50px;
 }
@@ -469,7 +468,6 @@
 /*footer*/
 
 .footer.container{
-  height: 36vw;
   background-color: #32495B;
 }
 
