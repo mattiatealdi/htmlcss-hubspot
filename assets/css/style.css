@@ -327,7 +327,7 @@
 /*part three*/
 
 .container-info{
-  height: 1000px;
+  height: 1200px;
   background:#F4F9FD;
   width: 100vw;
   padding-top: 100px;
@@ -356,12 +356,127 @@
 .row.one{
   background: red;
   width: 100%;
-  height: 100px;
+
 }
 
 .el{
   background: green;
   width: 25%;
+  height: 20vw;
+  border:1px solid white;
+  text-align: center;
+}
+
+.row.one .el{
+  border-top: 0;
+}
+
+.el img{
+  width: 20%;
+  margin-top: 60px;
+  min-height: 80px;
+}
+
+.el h2{
+  font-size: 3em;
+}
+
+.el.three img{
+  width: 30%;
+}
+
+.el.four img, .el.eight img{
+  width: 40%;
+}
+
+.row.two .el{
+  border-bottom: 0;
+}
+
+.el.one, .el.five{
+  border-left: 0;
+}
+
+.el.four, .el.eight{
+  border-right: 0;
+}
+
+/*small container*/
+.small-container{
+  width: 60%;
+  margin: auto;
+  background-color: brown;
+  height: 20vh;
+}
+
+.right-box{
+  width: 30%;
+  background:burlywood;
   height: 100%;
-  border: 1px solid black;
+}
+
+.right-box h2{
+  font-size: 3em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.left-box{
+  width: 70%;
+  background:chartreuse;
+  padding-top: 5vh;
+}
+
+.left-box img{
+  width: 21%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.row-one, .row-two{
+  min-height: 50px;
+}
+
+.left-box img{
+  padding: 10px;
+}
+
+/*last container*/
+
+.last.container{
+  background:darkblue;
+  height: 500px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.right.text{
+  width: 30%;
+  padding-top: 50px;
+}
+
+.right.text h2{
+  font-size: 2em;
+}
+
+.right.text p{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.left.image{
+  width: 35%;
+
+}
+
+.left.image img{
+  width: 70%;
+}
+
+/*footer*/
+
+.footer.container{
+  height: 600px;
+  background-color: #32495B;
 }
