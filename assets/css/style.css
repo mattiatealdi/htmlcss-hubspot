@@ -49,7 +49,7 @@ body{
 }
 
 .btn{
-  padding: 20px;
+  padding: 15px;
   font-size: 1.2em;
   border-radius: 10px;
 }
@@ -105,7 +105,7 @@ body{
 }
 
 .nav-right .btn-orange{
-  padding: 20px;
+  padding: 15px;
   font-size: 1.2em;
   margin-left: 20px;
 }
@@ -281,6 +281,7 @@ body{
   box-shadow: 0 0 5px rgba(0,0,0, 0.5);
   background-color: white;
   padding-bottom: 50px;
+  min-height: 900px;
 }
 
 .box.two{
@@ -322,21 +323,23 @@ body{
 
 .checks{
   margin-top: 50px;
+  min-height: 100px;
 }
 
 .checks .checked{
-  margin-top:10px;
+  margin-top:2px;
 }
 
 .box button{
-  margin-top: 50px;
+  padding: 20px;
+  margin-top: 20px;
   font-size: 0.8em;
 }
 
 /*part three*/
 
 .container-info{
-  height: 62vw;
+  height: 800px;
   background:#F4F9FD;
   width: 100vw;
   padding-top: 100px;
@@ -348,14 +351,17 @@ body{
   padding: 0 10%;
   color: white;
   height:100%;
+  padding-top: 50px;
 }
 
-.info h2{
-  padding-top: 30px;
+.info .text-center-title h2{
+  padding-bottom: 50px;
   font-size:2rem;
+  text-align: center;
 }
 
-.info p{
+.info .text-center-p{
+  text-align: center;
   padding-top: 30px;
   line-height: 30px;
   font-size: 1.05rem;
@@ -369,7 +375,7 @@ body{
 
 .el{
   width: 25%;
-  height: 20vw;
+  height: 200px;
   border:1px solid white;
   text-align: center;
 }
@@ -380,13 +386,19 @@ body{
 
 .el img{
   width: 20%;
-  margin-top: 40px;
-  min-height: 80px;
+  margin-top: 10px;
+  min-height: 0px;
 }
 
 .el h2{
   font-size: 3em;
+  padding-bottom: 10px;
 }
+
+.el.two, .el.three, .el h2, .row.two .el{
+  padding-top: 10px;
+}
+
 
 .el.three img{
   width: 30%;
@@ -406,6 +418,16 @@ body{
 
 .el.four, .el.eight{
   border-right: 0;
+}
+
+.el.six img, .el.seven img{
+  width: 10%;
+}
+
+.row .el span{
+  font-size: 2rem;
+  vertical-align: middle;
+  font-weight: bolder;
 }
 
 /*small container*/
