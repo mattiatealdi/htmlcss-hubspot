@@ -335,6 +335,9 @@ body{
   margin-top: 20px;
   font-size: 0.8em;
 }
+.marketing{
+  padding-right: 0;
+}
 
 /*part three*/
 
@@ -476,7 +479,7 @@ body{
 }
 
 .right.text{
-  width: 30%;
+  width: 40%;
   padding-top: 50px;
 }
 
