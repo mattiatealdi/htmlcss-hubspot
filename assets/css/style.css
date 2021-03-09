@@ -149,12 +149,52 @@ body{
 .second-nav-right div{
   display: inline-block;
   margin-right: 20px;
-  font-size: 1.2em;
+  font-size: 20px;
 }
 
 .second .nav img{
   margin-top: 35px;
   overflow: hidden;
+}
+
+.about-container{
+  background-color: white;
+  width: 800px;
+  height: 300px;
+  line-height: 50px;
+  bottom:-300px;
+  left:-700px;
+}
+
+.about .about-container{
+  display: none;
+}
+
+.about:hover .about-container{
+  display: block;
+}
+
+.coloumn{
+  width: 250px;
+  margin:auto;
+  padding: 25px 25px 0 50px;
+}
+
+.coloumn.two{
+  width: 200px;
+}
+
+div.about div.about-container div.coloumn ul li{
+  font-size: 15px;
+  list-style-type: none;
+}
+
+div.about div.about-container div.coloumn ul li:first-of-type{
+  font-weight: bolder;
+}
+div.about-container ul li a{
+  text-decoration: none;
+  color:#33475B;
 }
 
 /* jumbotron */
@@ -366,7 +406,7 @@ body{
 .container-info{
   height: 800px;
   background:#F4F9FD;
-  width: 100vw;
+  max-width: 100vw;
   padding-top: 100px;
 }
 
