@@ -157,6 +157,118 @@ body{
   overflow: hidden;
 }
 
+/* hover styling*/
+.coloumn ul{
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.coloumn ul li{
+  font-size: 15px;
+}
+
+.coloumn ul li:first-of-type{
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.coloumn ul li a{
+  text-decoration: none;
+  color:#32495B;
+}
+
+/*resources */
+
+.resources:hover .resources-container{
+  display: block;
+}
+
+.resources-container{
+  background: white;
+  width: 1400px;
+  height: 600px;
+  bottom: -600px;
+  left: -900px;
+}
+
+.resources .resources-container{
+  padding: 0 50%;
+  display: none;
+}
+
+.resources .resources-container .coloumn{
+  width: 33.3%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.elem ul{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.elem{
+  border-bottom: 2px solid #32495B;
+  padding: 20px 0;
+}
+
+.elem.last{
+  border:0;
+}
+
+.coloumn .elem{
+  margin: 0;
+}
+
+/*partners*/
+
+.partners:hover .partners-container{
+  display: block;
+}
+
+.partners-container{
+  background-color: white;
+  width: 1000px;
+  height: 200px;
+  line-height: 50px;
+  bottom:-200px;
+  left:-600px;
+}
+
+.partners .partners-container{
+  display: none;
+}
+
+.partners-container .coloumn{
+  width: 45%;
+}
+
+.coloumn ul{
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.coloumn ul li{
+  font-size: 15px;
+}
+
+.coloumn ul li:first-of-type{
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.coloumn ul li a{
+  text-decoration: none;
+  color:#32495B;
+}
+
+/*about*/
+
+
+
 .about-container{
   background-color: white;
   width: 800px;
@@ -191,6 +303,7 @@ div.about div.about-container div.coloumn ul li{
 
 div.about div.about-container div.coloumn ul li:first-of-type{
   font-weight: bolder;
+  font-size: 20px;
 }
 div.about-container ul li a{
   text-decoration: none;
